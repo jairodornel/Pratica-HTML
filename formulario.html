@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+          
+          
+          form{
+
+            font-size: 20px;
+
+            padding: 15px;
+          }
+
+        h1 {
+            text-align: center;
+        }
+        
+        h2 { 
+
+            text-align: center;
+        }
+
+        hr{
+            color:#D3D3D3 ;
+        }
+
+        header {
+
+            background-color: #D3D3D3;
+            padding: 13px;
+        }
+
+        body{
+            margin: 0;
+        }
+
+        .botao {
+                padding: 10px;
+
+        }
+
+        .botao:hover {
+
+            background-color: #D3D3D3;
+        }
+
+        .Ta {
+              width: 350px;
+              height: 25px;
+        }
+
+        a {
+
+            margin-left: 80%;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <header>
+
+    </header>
+    <h1>Bem Vindos! </h1> <br> 
+
+    <h2> Preencha os campos!</h2> <br> <br> 
+
+
+    <form>
+
+        <label  for="Name"> Nome:</label>
+        <input class="Ta"  id="Name" type="text" placeholder="Digite seu nome aqui" required> <br> <br> 
+
+        <label for="campo_email"> E-mail:</label>
+        <input class="Ta" id="campo_email" tpe="email" placeholder="Digite um e-mail" required> <br> <br>
+
+
+        <label for="campo_senha"> Senha:</label>
+        <input class="Ta" id="campo_senha" type="password" placeholder="Digite uma senha" required>  <br> <br> <br>
+
+        
+       <hr>
+
+       <br> <br> <br> 
+
+
+       <h2>Como você está hoje?</h2> <br>
+
+       <input id="Bem" type="radio" name="estado" value="Bem">
+       <label for="Bem"> Bem</label> <br> <br> 
+
+       <input id="Normal" type="radio" name="estado" value="Normal">
+       <label for="Normal"> Estável</label><br> <br>
+
+       <input id="Não muito bem" type="radio" name="estado" value="Ruim">
+       <label for="Não muito bem">Não muito bem</label> <br> <br> <br> 
+       <hr> <br> <br> 
+
+
+       <h2> Quais cores você mais gosta? </h2><br>
+
+       <input  id="C1"  type="checkbox" name="C1" value="preto"> 
+       <label for="C1"> Preto</label> <br> <br> 
+
+       <input id="C2" type="checkbox" name="C2" value="azul">
+       <label for="C2">Azul</label> <br> <br> 
+
+       <input id="C3" type="checkbox" name="C3" value="amarelo">
+       <label for="C3"> Amarelo</label><br><br> <br> 
+
+
+       <input class="botao" type="submit" value="ENVIAR"> <br> <br> <br> <br>
+
+
+
+
+
+
+
+
+    </form> <br> <br> <br> 
+
+    <a href="index.html">Voltar para principal </a> <br> <br> <br> 
+
+
+
+
+
+
+</body>
+</html>
